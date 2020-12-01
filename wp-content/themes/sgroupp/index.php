@@ -42,7 +42,7 @@ get_header();
             </div>
         </div>
     </div>
-    <div class="features" id="#features">
+    <div class="features" id="features">
         <div class="container">
             <div class="section-title">
                 <h3 >Почему стоит пройти обучение у нас:</h3>
