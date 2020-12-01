@@ -15,13 +15,16 @@
 get_header();
 ?>
 <main>
-    <div class="first-block">
+    <?php
+    echo do_shortcode('[smartslider3 slider="2"]');
+    ?>
+    <div class="first-block" style="display: none">
         <div class="container">
             <div class="first-wrapper">
                 <div class="left-text">
                     <div class="left-text_item">
-                        <h3 class=" left-text-title">Целевой инструктаж ПОД/ФТ - 1 800 р.</h3>
-                        <h3 class="left-text-title">Повышение уровня знаний - 1 800 р.</h3>
+                        <h3 class=" left-text-title">Целевой инструктаж ПОД/ФТ - 2 300 р.</h3>
+                        <h3 class="left-text-title">Повышение уровня знаний - 2 300 р..</h3>
                         <p class="text-sale">(предусмотрены скидки для групп 2 и более участников)</p>
                     </div>
 
@@ -33,13 +36,13 @@ get_header();
                         мониторинга)
                     </div>
                     <div class="left-text_item">
-                        <button class="button">Отправить заявку</button>
+                        <button class="button popmake-13"><a href="#">Отправить заявку </a></button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="features">
+    <div class="features" id="#features">
         <div class="container">
             <div class="section-title">
                 <h3 >Почему стоит пройти обучение у нас:</h3>
@@ -51,24 +54,24 @@ get_header();
                     <p class="feature-item_text">8-ми часовой онлайн-курс с преподавателем, с перерывами, с любого удобного для вас места и устройства. Записи вебинара так же будут доступны и после занятия. </p>
                 </div>
                 <div class="feature-item">
-                    <img src="<?php bloginfo('template_url'); ?>/img/1.png" alt="1">
+                    <img src="<?php bloginfo('template_url'); ?>/img/2.png" alt="1">
                     <p class="feature-item_title">Раздаточные материалы</p>
                     <p class="feature-item_text">Для применения Инструктажа для ежедневной работы</p>
                 </div>
                 <div class="feature-item">
-                    <img src="<?php bloginfo('template_url'); ?>/img/1.png" alt="1">
+                    <img src="<?php bloginfo('template_url'); ?>/img/3.png" alt="1">
                     <p class="feature-item_title">Сертификат</p>
                     <p class="feature-item_text">Выдача сертификатов государственного образца</p>
                 </div>
                 <div class="feature-item">
-                    <img src="<?php bloginfo('template_url'); ?>/img/1.png" alt="1">
+                    <img src="<?php bloginfo('template_url'); ?>/img/4.png" alt="1">
                     <p class="feature-item_title">Внесение в реестр</p>
                     <p class="feature-item_text">Бесплатное внесение в реестр</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="calendar">
+    <div class="calendar" id="calendar">
         <div class="container">
             <div class="section-title">
                 <h3>Календарь занятий</h3>
@@ -83,14 +86,14 @@ get_header();
             </div>
         </div>
     </div>
-    <div class="speakers">
+    <div class="speakers" id="speakers">
         <div class="container">
             <div class="section-title">
                 <h3>Спикеры</h3>
             </div>
             <div class="speakers-wrapper">
                 <div class="speaker">
-                    <img class="speaker-img-first" src="<?php bloginfo('template_url'); ?>/img/speaker1.png" alt="1">
+                    <img class="speaker-img-first speaker-img" src="<?php bloginfo('template_url'); ?>/img/speaker1.png" alt="1">
                     <div class="speaker-text">
                         <div class="speaker-title">
                             Дмитрий Щеголихин
@@ -150,7 +153,7 @@ get_header();
             </div>
         </div>
     </div>
-    <div class="steps">
+    <div class="steps" id ="steps">
         <div class="container">
             <div class="section-title">
                 <h3>Получи свидетельство в 4 этапа:</h3>
@@ -168,7 +171,7 @@ get_header();
                         Вышлем скан свидетельства на email и отправим оригинал почтой
                     </div>
                 </div>
-                <img src="<?php bloginfo('template_url'); ?>/img/steps-bg.png" alt="">
+                <img class="steps-img" src="<?php bloginfo('template_url'); ?>/img/steps-bg.png" alt="">
                 <div class="steps-column">
                     <div class="step">
                         <b>2 этап.<br>
@@ -187,7 +190,7 @@ get_header();
         </div>
     </div>
 
-    <div class="pvk">
+    <div class="pvk" id="pvk">
         <div class="container">
             <div class="section-title">
                 <h3>Правила внутреннего контроля</h3>
@@ -250,7 +253,7 @@ get_header();
                 </div>
             </div>
             <div class="bottom-button">
-                <button class="button">Обсудить разработку ПВК</button>
+                <button class="button popmake-13"><a href="#">Обсудить разработку ПВК</a></button>
 
             </div>
         </div>

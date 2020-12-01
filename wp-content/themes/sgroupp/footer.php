@@ -19,10 +19,10 @@
             </div>
             <div class="header-menu">
                 <ul class="header-menu_wrapper">
-                    <li><a class="header-menu_item" href="#">Календарь занятий</a></li>
-                    <li><a class="header-menu_item" href="#">Спикеры</a></li>
-                    <li><a class="header-menu_item" href="#">Преимущества</a></li>
-                    <li><a class="header-menu_item" href="#">ПВК</a></li>
+                    <li><a class="header-menu_item" href="#calendar">Календарь занятий</a></li>
+                    <li><a class="header-menu_item" href="#speakers">Спикеры</a></li>
+                    <li><a class="header-menu_item" href="#features">Преимущества</a></li>
+                    <li><a class="header-menu_item" href="#pvk">ПВК</a></li>
                 </ul>
             </div>
             <div class="header-contact">
@@ -31,7 +31,7 @@
                     <img width="30px" src="<?php bloginfo('template_url'); ?>/img/svg/whatsapp.svg" alt="whatsapp">
                 </div>
                 <div class="header-contact_email">sgroupp@yandex.ru</div>
-                <button class="button">Отправить заявку </button>
+                <button class="button popmake-13"><a href="#">Отправить заявку </a></button>
             </div>
         </div>
     </div>
